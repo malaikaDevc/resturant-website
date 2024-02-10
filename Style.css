@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: none;
+   
+
+}
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+
+}a,
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--primary-color)!important;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+
+}:root{
+    --primary-color:#A82C48;
+    --seconadry-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+    --primery-font:'Roboto',sans-serif;
+    --secondary-font:'Quicksand',sans-serif
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primery-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+/*-----------custom scroll bar-----------*/
+::-webkit-scrollbar{
+    width: 0.625rem;
+
+}::-webkit-scrollbar-track{
+    background: var(--white-color);
+}
+::-webkit-scrollbar-thumb{
+    background:var(--primary-color);
+}.items ul li a{
+    color: var(--primary-color);
+}.navigation-wrap{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+   
+}.navigation-wrap .nav-item{
+    padding: 0 0 0.625rem;
+    transition: all 200ms linear;
+  
+}
+    .nav-link{
+        font-size: 0.9375rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--primary-color);
+        letter-spacing: 1px;
+
+    }
+
+.navbar img{
+    width: 200px;
+
+    height: 70px;
+}.navbar .main-btn{
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: none;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.5s;
+} .navigation-wrap button:hover{
+    border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color: #fff;
+}.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow:0 0.125rem 1.75rem 0 rgb(0, 0, 0);
+    transition: all .15s ease-in-out 0s;
+}
+
+/*---------------banner section start---------*/
+.home{
+    background-image: url(images/bg/assortment-pieces-cake.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+#home .btn-primary{
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: none;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.5s;
+} #home .btn-primary:hover {border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color: #fff;}
+    #home .btn-success{
+        background-color: #fff;
+        outline: none;
+        border: 1px solid #ebe9e9;
+        border-radius: none;
+        color: #A82C48;
+        padding: 0.3125rem 1.4375rem;
+        box-shadow: none;
+        margin-left: 0.625rem;
+        transition: 0.5s;
+
+    } #home .btn-success:hover {border: 2px solid var(--primary-color);
+        color: #fff;
+        background-color: #A82C48;}
+.tag{
+    margin-top: 100px;
+    color: #A82C48;
+}#home p{
+    font-weight: 400;
+}
+/*---------------banner section end---------*/
+
+
+
+/*------------Counter section start-----------*/
+.counter-section{
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+}.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+}.counter-section h2{
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/*------------Counter section End-----------*/
+
+/*---------------about section start------------*/
+#about{
+    margin-bottom: 100px;
+}
+#about .btn-primary{
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.5s;
+} #about .btn-primary:hover {border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color: #fff;}
+    .margin-sec{
+        margin-top: 100px;
+    }
+    .card img{
+        width: 550px;
+        border-radius: 20px;
+
+    }.text-sec{
+        margin-left: 0px;
+        
+    }.list ul li i{
+        color: var(--primary-color);
+        font-weight: 900;
+       
+    }.margin-class img{
+        margin-top: 300px;
+
+    }
+
+
+    /*story section*/
+    
+    #story .btn-primary{
+        background-color: #A82C48;
+        outline: none;
+        border: none;
+        border-radius: none;
+        color: white;
+        padding: 0.3125rem 1.4375rem;
+        box-shadow: none;
+        margin-left: 0.625rem;
+        transition: 0.5s;
+    } #story .btn-primary:hover {border: 2px solid var(--primary-color);
+        color: #A82C48;
+        background-color: #fff;}
+        .story-section{
+            width: 100%;
+            padding-bottom: 20px;
+            background: url(images/bg/flat-lay-strawberries-fruit-snack-copy-space.jpg) no-repeat center;
+            background-size: cover;
+            padding-top: 100px;
+            text-align: center;
+
+        }#story.text-content {
+            margin-top: -100px;
+        }.text-normal {
+            width: 80%;
+            margin: 0 auto;
+        } 
+
+        
+/*--------------about section end---------------*/
+
+
+
+
+
+
+/*-----------------explore section start-----------*/
+#services{
+    margin-top: 200px;
+    margin-right: 0px;
+}
+.tag-1{
+    margin-top: 100px;
+    color: #3f0714;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tag-3{
+    
+    color: #3f0714;
+   
+}
+.text-services{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}.services-2{
+    
+    margin-bottom: 20px;
+    width: 100%;
+}
+.services-2 img{
+    width: 100% ;
+    height: 300px;
+   border-radius: 15px;
+    object-fit: cover;
+}
+#services.text-content {
+    margin-top: 0;
+    text-align: center;
+}.services-button{
+    display: inline-flex;
+}
+#services .btn-primary{
+    margin-top: -10px;
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.5s;
+} #services .btn-primary:hover {border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color: #fff;}
+#services span{
+    color: #A82C48;
+    font-weight: 800;
+}
+/*-----------------explore section end-----------*/
+
+/*-----------testimonials section start--------------*/
+#testimonials{
+    margin-top: 200px;
+    margin-right: 0px;
+}
+.client {
+    width: 100%;
+    height: 100%;
+    background: #A82C48;  /* fallback for old browsers */
+   
+    background: linear-gradient(to right, #A82C48, #eb0f60); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+  color: #000;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid white;
+  color: #000;
+}
+
+/* testimonials section end--------------*/
+
+/* ---------------FAQ section start-------*/
+/* ---------------FAQ section start-------*/
+#faq{
+    margin-top: 200px;
+    margin-right: 0px;
+}.heading-q{
+    margin-top: 100px;
+    color: #56071a;
+    font-weight: 700;
+}
+/* ---------------FAQ section end-------*/
+/*---------------Parallax Effect section start----------*/
+#book-food{
+    margin-top: 200px;
+    margin-right: 0px;   
+}.book-food-button{
+    display: inline-flex;
+}
+#book-food .btn-primary{
+    margin-top: -10px;
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.2s;
+} #book-food .btn-primary:hover {border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color:transparent}
+.book-food{
+    width: 100%;
+    background:url(images/bg/top-view-delicious-sliced-pie-with-red-berries-dark-table-pie-sweet-cake.jpg) no-repeat center;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.375rem;
+}.book-food h2{
+    color: white;
+    font-weight: 600;
+}
+/*---------------Parallax Effect section end----------*/
+/*----------second last section start----------*/
+#newsletter{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}.newsletter-button{
+    display: inline-flex;
+}
+#newsletter .btn-primary{
+    margin-top: 0;
+    background-color: #A82C48;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    transition: 0.2s;
+    width: 100%;
+    
+} #newsletter .btn-primary:hover {border: 2px solid var(--primary-color);
+    color: #A82C48;
+    background-color:transparent}
+    .newsletter{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .form-control{
+        outline: none;
+        box-shadow: none;
+        border-radius: none;
+    }.form-control:hover
+   {
+        outline: none;
+        box-shadow: none;
+        border-color: #A82C48;
+
+
+    }
+/* section last section end--------*/
+/*----------footer section start-----------*/
+footer{
+    background-color: #A82C48;
+    width: 100%;
+}.footer .footer-link{
+    font-size: 1rem;
+    color: white;
+    padding: 0 1.875rem;
+}.footer .footer-link:hover{
+    color: white !important;
+}.footer a i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem ;
+}
+.footer a{
+   text-decoration: none;
+}
+/*footer section end-------------*/
+/*---------footer section responsive media query-----------*/
+.footer.footer-link,footer a i{
+    padding: 0 0.7rem;
+
+}
